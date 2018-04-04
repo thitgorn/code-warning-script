@@ -11,7 +11,7 @@ or
 
 to test content above work correctly
 
-```$ terminal-notifier -message "hello world"
+```$ terminal-notifier -message "hello world"```
 
 install dependency
 
