@@ -71,9 +71,7 @@ function notify(freeze){
     var now = moment()
     var duration = moment.duration(now.diff(startTime))
     var hrs = duration.asHours()
-    if(hrs > 0) {
-        hrs = 0
-    }
+    hrs = hrs.toFixed(2)
 
     var message = `You have been coding for ${hrs} hours \nSince : ${startTime.format('LTS')}\n`
     var timeout = freeze ? "" : "-timeout 15"
